@@ -1,0 +1,87 @@
+<!--
+Copyright 2026 Joshua D
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<odoo noupdate="1">
+    <!--
+        Trinidad and Tobago first-level subdivisions.
+        Codes follow ISO 3166-2:TT suffixes where available.
+        Odoo's res.country.state code stores the subdivision suffix, not "TT-".
+    -->
+    <record id="state_tt_ari" model="res.country.state">
+        <field name="name">Arima</field>
+        <field name="code">ARI</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_cha" model="res.country.state">
+        <field name="name">Chaguanas</field>
+        <field name="code">CHA</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_ctt" model="res.country.state">
+        <field name="name">Couva-Tabaquite-Talparo</field>
+        <field name="code">CTT</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_dmn" model="res.country.state">
+        <field name="name">Diego Martin</field>
+        <field name="code">DMN</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_mrc" model="res.country.state">
+        <field name="name">Mayaro-Rio Claro</field>
+        <field name="code">MRC</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_ped" model="res.country.state">
+        <field name="name">Penal-Debe</field>
+        <field name="code">PED</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_ptf" model="res.country.state">
+        <field name="name">Point Fortin</field>
+        <field name="code">PTF</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_pos" model="res.country.state">
+        <field name="name">Port of Spain</field>
+        <field name="code">POS</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_prt" model="res.country.state">
+        <field name="name">Princes Town</field>
+        <field name="code">PRT</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_sfo" model="res.country.state">
+        <field name="name">San Fernando</field>
+        <field name="code">SFO</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_sge" model="res.country.state">
+        <field name="name">Sangre Grande</field>
+        <field name="code">SGE</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_sip" model="res.country.state">
+        <field name="name">Siparia</field>
+        <field name="code">SIP</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_sjl" model="res.country.state">
+        <field name="name">San Juan-Laventille</field>
+        <field name="code">SJL</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_tob" model="res.country.state">
+        <field name="name">Tobago</field>
+        <field name="code">TOB</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+    <record id="state_tt_tup" model="res.country.state">
+        <field name="name">Tunapuna-Piarco</field>
+        <field name="code">TUP</field>
+        <field name="country_id" ref="base.tt"/>
+    </record>
+</odoo>
