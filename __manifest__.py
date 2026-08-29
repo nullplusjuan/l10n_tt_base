@@ -35,7 +35,7 @@ statutory identifiers and tax rules should live in separate dependent modules.
     "depends": ["base", "partner_extended_profile"],
     "data": [
         "data/res_country_state_data.xml",
-        "data/res_country_data.xml",
+        "data/partner_identity_type_data.xml",
     ],
     "installable": True,
     "application": False,
