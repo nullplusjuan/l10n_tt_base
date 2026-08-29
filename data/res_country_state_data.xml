@@ -1,14 +1,5 @@
-<!--
-Copyright 2026 Joshua D
-
-SPDX-License-Identifier: AGPL-3.0-or-later
--->
+<!-- Copyright 2026 Joshua D | SPDX-License-Identifier: AGPL-3.0-or-later -->
 <odoo noupdate="1">
-    <!--
-        Trinidad and Tobago first-level subdivisions.
-        Codes follow ISO 3166-2:TT suffixes where available.
-        Odoo's res.country.state code stores the subdivision suffix, not "TT-".
-    -->
     <record id="state_tt_ari" model="res.country.state">
         <field name="name">Arima</field>
         <field name="code">ARI</field>

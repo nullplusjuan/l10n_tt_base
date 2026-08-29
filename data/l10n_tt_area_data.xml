@@ -1,0 +1,160 @@
+<!-- Seed list of commonly used TT communities. Administrators may extend it. -->
+<!-- Copyright 2026 Joshua D | SPDX-License-Identifier: AGPL-3.0-or-later -->
+<odoo noupdate="1">
+    <record id="area_tt_arima" model="l10n.tt.area">
+        <field name="name">Arima</field>
+        <field name="state_id" ref="state_tt_ari"/>
+    </record>
+    <record id="area_tt_chaguanas" model="l10n.tt.area">
+        <field name="name">Chaguanas</field>
+        <field name="state_id" ref="state_tt_cha"/>
+    </record>
+    <record id="area_tt_couva" model="l10n.tt.area">
+        <field name="name">Couva</field>
+        <field name="state_id" ref="state_tt_ctt"/>
+    </record>
+    <record id="area_tt_claxton_bay" model="l10n.tt.area">
+        <field name="name">Claxton Bay</field>
+        <field name="state_id" ref="state_tt_ctt"/>
+    </record>
+    <record id="area_tt_tabaquite" model="l10n.tt.area">
+        <field name="name">Tabaquite</field>
+        <field name="state_id" ref="state_tt_ctt"/>
+    </record>
+    <record id="area_tt_talparo" model="l10n.tt.area">
+        <field name="name">Talparo</field>
+        <field name="state_id" ref="state_tt_ctt"/>
+    </record>
+    <record id="area_tt_diego_martin" model="l10n.tt.area">
+        <field name="name">Diego Martin</field>
+        <field name="state_id" ref="state_tt_dmn"/>
+    </record>
+    <record id="area_tt_carenage" model="l10n.tt.area">
+        <field name="name">Carenage</field>
+        <field name="state_id" ref="state_tt_dmn"/>
+    </record>
+    <record id="area_tt_petit_valley" model="l10n.tt.area">
+        <field name="name">Petit Valley</field>
+        <field name="state_id" ref="state_tt_dmn"/>
+    </record>
+    <record id="area_tt_mayaro" model="l10n.tt.area">
+        <field name="name">Mayaro</field>
+        <field name="state_id" ref="state_tt_mrc"/>
+    </record>
+    <record id="area_tt_rio_claro" model="l10n.tt.area">
+        <field name="name">Rio Claro</field>
+        <field name="state_id" ref="state_tt_mrc"/>
+    </record>
+    <record id="area_tt_penal" model="l10n.tt.area">
+        <field name="name">Penal</field>
+        <field name="state_id" ref="state_tt_ped"/>
+    </record>
+    <record id="area_tt_debe" model="l10n.tt.area">
+        <field name="name">Debe</field>
+        <field name="state_id" ref="state_tt_ped"/>
+    </record>
+    <record id="area_tt_barrackpore" model="l10n.tt.area">
+        <field name="name">Barrackpore</field>
+        <field name="state_id" ref="state_tt_ped"/>
+    </record>
+    <record id="area_tt_point_fortin" model="l10n.tt.area">
+        <field name="name">Point Fortin</field>
+        <field name="state_id" ref="state_tt_ptf"/>
+    </record>
+    <record id="area_tt_port_of_spain" model="l10n.tt.area">
+        <field name="name">Port of Spain</field>
+        <field name="state_id" ref="state_tt_pos"/>
+    </record>
+    <record id="area_tt_woodbrook" model="l10n.tt.area">
+        <field name="name">Woodbrook</field>
+        <field name="state_id" ref="state_tt_pos"/>
+    </record>
+    <record id="area_tt_st_james" model="l10n.tt.area">
+        <field name="name">St. James</field>
+        <field name="state_id" ref="state_tt_pos"/>
+    </record>
+    <record id="area_tt_princes_town" model="l10n.tt.area">
+        <field name="name">Princes Town</field>
+        <field name="state_id" ref="state_tt_prt"/>
+    </record>
+    <record id="area_tt_new_grant" model="l10n.tt.area">
+        <field name="name">New Grant</field>
+        <field name="state_id" ref="state_tt_prt"/>
+    </record>
+    <record id="area_tt_tableland" model="l10n.tt.area">
+        <field name="name">Tableland</field>
+        <field name="state_id" ref="state_tt_prt"/>
+    </record>
+    <record id="area_tt_san_fernando" model="l10n.tt.area">
+        <field name="name">San Fernando</field>
+        <field name="state_id" ref="state_tt_sfo"/>
+    </record>
+    <record id="area_tt_marabella" model="l10n.tt.area">
+        <field name="name">Marabella</field>
+        <field name="state_id" ref="state_tt_sfo"/>
+    </record>
+    <record id="area_tt_sangre_grande" model="l10n.tt.area">
+        <field name="name">Sangre Grande</field>
+        <field name="state_id" ref="state_tt_sge"/>
+    </record>
+    <record id="area_tt_toco" model="l10n.tt.area">
+        <field name="name">Toco</field>
+        <field name="state_id" ref="state_tt_sge"/>
+    </record>
+    <record id="area_tt_valencia" model="l10n.tt.area">
+        <field name="name">Valencia</field>
+        <field name="state_id" ref="state_tt_sge"/>
+    </record>
+    <record id="area_tt_siparia" model="l10n.tt.area">
+        <field name="name">Siparia</field>
+        <field name="state_id" ref="state_tt_sip"/>
+    </record>
+    <record id="area_tt_la_brea" model="l10n.tt.area">
+        <field name="name">La Brea</field>
+        <field name="state_id" ref="state_tt_sip"/>
+    </record>
+    <record id="area_tt_san_juan" model="l10n.tt.area">
+        <field name="name">San Juan</field>
+        <field name="state_id" ref="state_tt_sjl"/>
+    </record>
+    <record id="area_tt_barataria" model="l10n.tt.area">
+        <field name="name">Barataria</field>
+        <field name="state_id" ref="state_tt_sjl"/>
+    </record>
+    <record id="area_tt_laventille" model="l10n.tt.area">
+        <field name="name">Laventille</field>
+        <field name="state_id" ref="state_tt_sjl"/>
+    </record>
+    <record id="area_tt_tunapuna" model="l10n.tt.area">
+        <field name="name">Tunapuna</field>
+        <field name="state_id" ref="state_tt_tup"/>
+    </record>
+    <record id="area_tt_piarco" model="l10n.tt.area">
+        <field name="name">Piarco</field>
+        <field name="state_id" ref="state_tt_tup"/>
+    </record>
+    <record id="area_tt_arouca" model="l10n.tt.area">
+        <field name="name">Arouca</field>
+        <field name="state_id" ref="state_tt_tup"/>
+    </record>
+    <record id="area_tt_curepe" model="l10n.tt.area">
+        <field name="name">Curepe</field>
+        <field name="state_id" ref="state_tt_tup"/>
+    </record>
+    <record id="area_tt_st_augustine" model="l10n.tt.area">
+        <field name="name">St. Augustine</field>
+        <field name="state_id" ref="state_tt_tup"/>
+    </record>
+    <record id="area_tt_scarborough" model="l10n.tt.area">
+        <field name="name">Scarborough</field>
+        <field name="state_id" ref="state_tt_tob"/>
+    </record>
+    <record id="area_tt_crown_point" model="l10n.tt.area">
+        <field name="name">Crown Point</field>
+        <field name="state_id" ref="state_tt_tob"/>
+    </record>
+    <record id="area_tt_roxborough" model="l10n.tt.area">
+        <field name="name">Roxborough</field>
+        <field name="state_id" ref="state_tt_tob"/>
+    </record>
+</odoo>

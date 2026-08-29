@@ -1,34 +1,7 @@
-<!--
-Copyright 2026 Joshua D
-
-SPDX-License-Identifier: AGPL-3.0-or-later
--->
+<!-- Copyright 2026 Joshua D | SPDX-License-Identifier: AGPL-3.0-or-later -->
 <odoo noupdate="1">
-    <record id="partner_identity_type_tt_national_id" model="res.partner.identity.type">
-        <field name="name">Trinidad and Tobago National Identification Card</field>
-        <field name="code">TT_NATIONAL_ID</field>
-        <field name="country_id" ref="base.tt"/>
-        <field name="sequence">10</field>
-    </record>
-
-    <record id="partner_identity_type_tt_drivers_permit" model="res.partner.identity.type">
-        <field name="name">Trinidad and Tobago Driver's Permit</field>
-        <field name="code">TT_DRIVERS_PERMIT</field>
-        <field name="country_id" ref="base.tt"/>
-        <field name="sequence">20</field>
-    </record>
-
-    <record id="partner_identity_type_tt_passport" model="res.partner.identity.type">
-        <field name="name">Trinidad and Tobago Passport</field>
-        <field name="code">TT_PASSPORT</field>
-        <field name="country_id" ref="base.tt"/>
-        <field name="sequence">30</field>
-    </record>
-
-    <record id="partner_identity_type_tt_birth_certificate" model="res.partner.identity.type">
-        <field name="name">Trinidad and Tobago Birth Certificate</field>
-        <field name="code">TT_BIRTH_CERTIFICATE</field>
-        <field name="country_id" ref="base.tt"/>
-        <field name="sequence">40</field>
-    </record>
+    <record id="partner_identity_type_tt_national_id" model="res.partner.identity.type"><field name="name">Trinidad and Tobago National Identification Card</field><field name="code">TT_NATIONAL_ID</field><field name="country_id" ref="base.tt"/><field name="sequence">10</field></record>
+    <record id="partner_identity_type_tt_drivers_permit" model="res.partner.identity.type"><field name="name">Trinidad and Tobago Driver's Permit</field><field name="code">TT_DRIVERS_PERMIT</field><field name="country_id" ref="base.tt"/><field name="sequence">20</field></record>
+    <record id="partner_identity_type_tt_passport" model="res.partner.identity.type"><field name="name">Trinidad and Tobago Passport</field><field name="code">TT_PASSPORT</field><field name="country_id" ref="base.tt"/><field name="sequence">30</field></record>
+    <record id="partner_identity_type_tt_birth_certificate" model="res.partner.identity.type"><field name="name">Trinidad and Tobago Birth Certificate</field><field name="code">TT_BIRTH_CERTIFICATE</field><field name="country_id" ref="base.tt"/><field name="sequence">40</field></record>
 </odoo>
