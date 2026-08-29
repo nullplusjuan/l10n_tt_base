@@ -13,7 +13,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 {
     "name": "Trinidad and Tobago - Base Localization",
-    "version": "18.0.1.0.0",
+    "version": "18.0.2.0.0",
     "summary": "Base Trinidad and Tobago geographic localization data",
     "description": """
 Trinidad and Tobago Base Localization
@@ -25,6 +25,7 @@ accounting chart or tax configuration.
 Current scope:
 - Trinidad and Tobago ISO-style first-level subdivisions for res.country.state
 - Tobago as its first-level subdivision alongside Trinidad municipal areas
+- Trinidad and Tobago phone-number normalization to +1 (868) XXX-XXXX
 
 This module is intentionally a base/foundation module. Accounting, payroll,
 statutory identifiers and tax rules should live in separate dependent modules.
