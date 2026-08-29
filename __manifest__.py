@@ -32,7 +32,7 @@ statutory identifiers and tax rules should live in separate dependent modules.
     "author": "Quadrintin Solutions",
     "category": "Localization",
     "license": "AGPL-3",
-    "depends": ["base"],
+    "depends": ["base", "partner_extended_profile"],
     "data": [
         "data/res_country_state_data.xml",
     ],
