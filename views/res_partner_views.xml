@@ -5,6 +5,7 @@
         <field name="arch" type="xml">
             <xpath expr="(//field[@name='city'])[1]" position="after">
                 <field name="tt_area_id" placeholder="TT Area / Community" options="{'no_create': True}"/>
+                <field name="occupation_id" options="{'no_create': True}"/>
             </xpath>
         </field>
     </record>

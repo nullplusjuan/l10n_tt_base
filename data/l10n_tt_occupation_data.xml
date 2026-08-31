@@ -1,0 +1,248 @@
+<odoo noupdate="1">
+    <record id="occupation_manager" model="l10n.tt.occupation">
+        <field name="name">Manager / Supervisor</field>
+        <field name="code">manager</field>
+        <field name="category">management</field>
+        <field name="sequence">10</field>
+    </record>
+    <record id="occupation_business_owner" model="l10n.tt.occupation">
+        <field name="name">Business Owner / Entrepreneur</field>
+        <field name="code">business_owner</field>
+        <field name="category">management</field>
+        <field name="sequence">20</field>
+    </record>
+    <record id="occupation_accountant" model="l10n.tt.occupation">
+        <field name="name">Accountant / Auditor</field>
+        <field name="code">accountant</field>
+        <field name="category">professional</field>
+        <field name="sequence">30</field>
+    </record>
+    <record id="occupation_engineer" model="l10n.tt.occupation">
+        <field name="name">Engineer</field>
+        <field name="code">engineer</field>
+        <field name="category">professional</field>
+        <field name="sequence">40</field>
+    </record>
+    <record id="occupation_doctor" model="l10n.tt.occupation">
+        <field name="name">Doctor / Medical Practitioner</field>
+        <field name="code">doctor</field>
+        <field name="category">professional</field>
+        <field name="sequence">50</field>
+    </record>
+    <record id="occupation_nurse" model="l10n.tt.occupation">
+        <field name="name">Nurse</field>
+        <field name="code">nurse</field>
+        <field name="category">professional</field>
+        <field name="sequence">60</field>
+    </record>
+    <record id="occupation_teacher" model="l10n.tt.occupation">
+        <field name="name">Teacher / Educator</field>
+        <field name="code">teacher</field>
+        <field name="category">professional</field>
+        <field name="sequence">70</field>
+    </record>
+    <record id="occupation_attorney" model="l10n.tt.occupation">
+        <field name="name">Attorney / Legal Professional</field>
+        <field name="code">attorney</field>
+        <field name="category">professional</field>
+        <field name="sequence">80</field>
+    </record>
+    <record id="occupation_ict_professional" model="l10n.tt.occupation">
+        <field name="name">Software / IT / Cybersecurity Professional</field>
+        <field name="code">ict_professional</field>
+        <field name="category">professional</field>
+        <field name="sequence">90</field>
+    </record>
+    <record id="occupation_emergency_professional" model="l10n.tt.occupation">
+        <field name="name">Emergency Management / Safety Professional</field>
+        <field name="code">emergency_professional</field>
+        <field name="category">professional</field>
+        <field name="sequence">100</field>
+    </record>
+    <record id="occupation_technician" model="l10n.tt.occupation">
+        <field name="name">Engineering / Technical Technician</field>
+        <field name="code">technician</field>
+        <field name="category">technical</field>
+        <field name="sequence">110</field>
+    </record>
+    <record id="occupation_ict_technician" model="l10n.tt.occupation">
+        <field name="name">IT / Telecom Technician</field>
+        <field name="code">ict_technician</field>
+        <field name="category">technical</field>
+        <field name="sequence">120</field>
+    </record>
+    <record id="occupation_health_technician" model="l10n.tt.occupation">
+        <field name="name">Health / Medical Technician</field>
+        <field name="code">health_technician</field>
+        <field name="category">technical</field>
+        <field name="sequence">130</field>
+    </record>
+    <record id="occupation_administrative" model="l10n.tt.occupation">
+        <field name="name">Administrative / Clerical Worker</field>
+        <field name="code">administrative</field>
+        <field name="category">clerical</field>
+        <field name="sequence">140</field>
+    </record>
+    <record id="occupation_accounts_clerk" model="l10n.tt.occupation">
+        <field name="name">Accounts / Finance Clerk</field>
+        <field name="code">accounts_clerk</field>
+        <field name="category">clerical</field>
+        <field name="sequence">150</field>
+    </record>
+    <record id="occupation_public_servant" model="l10n.tt.occupation">
+        <field name="name">Public Servant / Government Officer</field>
+        <field name="code">public_servant</field>
+        <field name="category">clerical</field>
+        <field name="sequence">160</field>
+    </record>
+    <record id="occupation_police" model="l10n.tt.occupation">
+        <field name="name">Police / Protective Services</field>
+        <field name="code">police</field>
+        <field name="category">service</field>
+        <field name="sequence">170</field>
+    </record>
+    <record id="occupation_firefighter" model="l10n.tt.occupation">
+        <field name="name">Firefighter</field>
+        <field name="code">firefighter</field>
+        <field name="category">service</field>
+        <field name="sequence">180</field>
+    </record>
+    <record id="occupation_security" model="l10n.tt.occupation">
+        <field name="name">Security Officer</field>
+        <field name="code">security</field>
+        <field name="category">service</field>
+        <field name="sequence">190</field>
+    </record>
+    <record id="occupation_sales" model="l10n.tt.occupation">
+        <field name="name">Sales / Retail Worker</field>
+        <field name="code">sales</field>
+        <field name="category">service</field>
+        <field name="sequence">200</field>
+    </record>
+    <record id="occupation_hospitality" model="l10n.tt.occupation">
+        <field name="name">Hospitality / Food Service Worker</field>
+        <field name="code">hospitality</field>
+        <field name="category">service</field>
+        <field name="sequence">210</field>
+    </record>
+    <record id="occupation_food_vendor" model="l10n.tt.occupation">
+        <field name="name">Food Vendor / Doubles Vendor</field>
+        <field name="code">food_vendor</field>
+        <field name="category">service</field>
+        <field name="sequence">220</field>
+    </record>
+    <record id="occupation_personal_services" model="l10n.tt.occupation">
+        <field name="name">Personal Services Worker</field>
+        <field name="code">personal_services</field>
+        <field name="category">service</field>
+        <field name="sequence">230</field>
+    </record>
+    <record id="occupation_farmer" model="l10n.tt.occupation">
+        <field name="name">Farmer / Agricultural Worker</field>
+        <field name="code">farmer</field>
+        <field name="category">agriculture</field>
+        <field name="sequence">240</field>
+    </record>
+    <record id="occupation_fisher" model="l10n.tt.occupation">
+        <field name="name">Fisher / Fisheries Worker</field>
+        <field name="code">fisher</field>
+        <field name="category">agriculture</field>
+        <field name="sequence">250</field>
+    </record>
+    <record id="occupation_mechanic" model="l10n.tt.occupation">
+        <field name="name">Mechanic / Automotive Technician</field>
+        <field name="code">mechanic</field>
+        <field name="category">trades</field>
+        <field name="sequence">260</field>
+    </record>
+    <record id="occupation_electrician" model="l10n.tt.occupation">
+        <field name="name">Electrician</field>
+        <field name="code">electrician</field>
+        <field name="category">trades</field>
+        <field name="sequence">270</field>
+    </record>
+    <record id="occupation_plumber" model="l10n.tt.occupation">
+        <field name="name">Plumber / Pipefitter</field>
+        <field name="code">plumber</field>
+        <field name="category">trades</field>
+        <field name="sequence">280</field>
+    </record>
+    <record id="occupation_welder" model="l10n.tt.occupation">
+        <field name="name">Welder / Fabricator</field>
+        <field name="code">welder</field>
+        <field name="category">trades</field>
+        <field name="sequence">290</field>
+    </record>
+    <record id="occupation_carpenter" model="l10n.tt.occupation">
+        <field name="name">Carpenter / Joiner</field>
+        <field name="code">carpenter</field>
+        <field name="category">trades</field>
+        <field name="sequence">300</field>
+    </record>
+    <record id="occupation_mason" model="l10n.tt.occupation">
+        <field name="name">Mason / Construction Tradesperson</field>
+        <field name="code">mason</field>
+        <field name="category">trades</field>
+        <field name="sequence">310</field>
+    </record>
+    <record id="occupation_driver" model="l10n.tt.occupation">
+        <field name="name">Driver / Transport Operator</field>
+        <field name="code">driver</field>
+        <field name="category">plant</field>
+        <field name="sequence">320</field>
+    </record>
+    <record id="occupation_heavy_equipment" model="l10n.tt.occupation">
+        <field name="name">Heavy Equipment / Plant Operator</field>
+        <field name="code">heavy_equipment</field>
+        <field name="category">plant</field>
+        <field name="sequence">330</field>
+    </record>
+    <record id="occupation_industrial_operator" model="l10n.tt.occupation">
+        <field name="name">Industrial / Process Plant Operator</field>
+        <field name="code">industrial_operator</field>
+        <field name="category">plant</field>
+        <field name="sequence">340</field>
+    </record>
+    <record id="occupation_general_worker" model="l10n.tt.occupation">
+        <field name="name">General Worker / Labourer</field>
+        <field name="code">general_worker</field>
+        <field name="category">elementary</field>
+        <field name="sequence">350</field>
+    </record>
+    <record id="occupation_domestic_worker" model="l10n.tt.occupation">
+        <field name="name">Domestic / Cleaning Worker</field>
+        <field name="code">domestic_worker</field>
+        <field name="category">elementary</field>
+        <field name="sequence">360</field>
+    </record>
+    <record id="occupation_student" model="l10n.tt.occupation">
+        <field name="name">Student</field>
+        <field name="code">student</field>
+        <field name="category">other</field>
+        <field name="sequence">370</field>
+    </record>
+    <record id="occupation_retired" model="l10n.tt.occupation">
+        <field name="name">Retired</field>
+        <field name="code">retired</field>
+        <field name="category">other</field>
+        <field name="sequence">380</field>
+    </record>
+    <record id="occupation_unemployed" model="l10n.tt.occupation">
+        <field name="name">Unemployed / Seeking Work</field>
+        <field name="code">unemployed</field>
+        <field name="category">other</field>
+        <field name="sequence">390</field>
+    </record>
+    <record id="occupation_home_duties" model="l10n.tt.occupation">
+        <field name="name">Home Duties / Homemaker</field>
+        <field name="code">home_duties</field>
+        <field name="category">other</field>
+        <field name="sequence">400</field>
+    </record>
+    <record id="occupation_other" model="l10n.tt.occupation">
+        <field name="name">Other</field>
+        <field name="code">other</field>
+        <field name="category">other</field>
+        <field name="sequence">410</field>
+    </record>
+</odoo>

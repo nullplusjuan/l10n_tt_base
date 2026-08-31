@@ -10,6 +10,7 @@ class ResPartner(models.Model):
     _inherit = "res.partner"
 
     tt_area_id = fields.Many2one("l10n.tt.area", string="TT Area / Community", ondelete="restrict")
+    occupation_id = fields.Many2one("l10n.tt.occupation", string="Occupation", ondelete="restrict")
     tt_s42_postal_code = fields.Char(related="zip", string="S-42 Postal Code", readonly=False)
 
     _tt_phone_fields = ("phone", "mobile", "mobile2", "phone_work")
