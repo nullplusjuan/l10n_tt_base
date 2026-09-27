@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 {
     "name": "Trinidad and Tobago - Base Localization",
-    "version": "18.0.4.0.0",
+    "version": "18.0.4.1.0",
     "summary": "Base Trinidad and Tobago geographic, addressing and phone localization data",
     "author": "Quadrintin Solutions",
     "category": "Localization",

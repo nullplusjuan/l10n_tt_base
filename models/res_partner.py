@@ -15,6 +15,16 @@ class ResPartner(models.Model):
 
     _tt_phone_fields = ("phone", "mobile", "mobile2", "phone_work")
 
+    tt_city_mismatch = fields.Boolean(compute="_compute_tt_city_mismatch")
+
+    @api.depends("city", "tt_area_id.name")
+    def _compute_tt_city_mismatch(self):
+        for record in self:
+            record.tt_city_mismatch = bool(
+                record.tt_area_id and record.city
+                and record.city.strip().casefold() != record.tt_area_id.name.strip().casefold()
+            )
+
     @api.onchange("tt_area_id")
     def _onchange_tt_area_id(self):
         tt_country = self.env.ref("base.tt", raise_if_not_found=False)
@@ -62,7 +72,7 @@ class ResPartner(models.Model):
             area = self.env["l10n.tt.area"].browse(vals["tt_area_id"]).exists()
             if area:
                 tt_country = self.env.ref("base.tt", raise_if_not_found=False)
-                vals.setdefault("city", area.name)
+                vals["city"] = area.name
                 if area.state_id:
                     vals.setdefault("state_id", area.state_id.id)
                 if tt_country:

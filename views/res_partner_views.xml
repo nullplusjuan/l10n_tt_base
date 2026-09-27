@@ -1,10 +1,25 @@
 <!-- Copyright 2026 Joshua D | SPDX-License-Identifier: AGPL-3.0-or-later -->
 <odoo>
     <record id="view_partner_form_l10n_tt" model="ir.ui.view">
-        <field name="name">res.partner.form.l10n.tt</field><field name="model">res.partner</field><field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="name">res.partner.form.l10n.tt</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
+            <xpath expr="(//field[@name='city'])[1]" position="attributes">
+                <attribute name="invisible">tt_area_id and not tt_city_mismatch</attribute>
+            </xpath>
             <xpath expr="(//field[@name='city'])[1]" position="after">
-                <field name="tt_area_id" placeholder="TT Area / Community" options="{'no_create': True}"/>
+                <field name="tt_city_mismatch" invisible="1"/>
+            </xpath>
+            <xpath expr="(//div[hasclass('o_address_format')])[1]" position="after">
+                <group string="Trinidad and Tobago Address">
+                    <field name="tt_area_id" string="Area / Community" options="{'no_create': True}"/>
+                    <div class="alert alert-warning" role="alert" invisible="not tt_city_mismatch">
+                        City and Area / Community differ. Check the address, then reselect the correct area to synchronize the city.
+                    </div>
+                </group>
+            </xpath>
+            <xpath expr="(//field[@name='function'])[1]" position="after">
                 <field name="occupation_id" options="{'no_create': True}"/>
             </xpath>
         </field>
